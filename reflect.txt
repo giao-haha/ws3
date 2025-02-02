@@ -1,0 +1,14 @@
+During this workshop, I dealt with C++ class frameworks and memory movement via a CC class that I created for credit card specifications. 
+It was a lesson that I learned invaluable lessons, namely, the proper characteristics of protecting sensitive pieces of information like cardholder information, card number, etc.
+There, I realized the value of securing data and ensuring that only the public methods that are designed can specify the data to be modified. 
+Consequently, it not only eliminated any vulnerabilities but also improved the overall structure of the code which made modifications easier 
+One of the most complicated yet gratifying things was dealing with allocating memory for a variable that held the user's name. While using the cstr module from the workshop, 
+I was able to explore the concept of allocation and driver memory and learn how to avoid memory leaks, an issue that frequently is faced in C++ development. 
+Indeed, the alocpy and freeMem functions were the most beneficial, and it reinforced me of the profound need to manage memory carefully, especially while dealing with dynamic allocation.
+The next thing I did is introducing the validation logic to preserve the data integrity by verifying the credit card data. Coding the validate function enabled me to look for particular conditions, 
+for example, valid card numbers, CVV codes, and expiry dates. Consequently, the program was improved to be more robust and user-friendly because, 
+in the case of a user supplying an invalid input, the program could respond accordingly.
+Last, but certainly not least, it was absolutely eye-opening to learn how to do file handling within the listCCs function. 
+At the beginning, I encountered a segmentation fault because I didn’t consider the possibility that the file failed in being opened. 
+Fixing this issue gave me a lesson concerning the importance of error handling and edge case issues like file not found to be avoided crashing the program. 
+Handling the program using Valgrind was very advantageous in this case and gave me a chance to get more insight on the value of debugging tools.
